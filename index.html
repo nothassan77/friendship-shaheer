@@ -49,4 +49,165 @@
             <i class="fa-solid fa-bars"></i>
         </div>
     </nav>
+        <!-- ================= PART 2: HERO SECTION ================= -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="badge"><i class="fa-solid fa-sparkles"></i> Unbreakable Bond</div>
+            <h1 class="glimmer-text">Hassan & Shaheer</h1>
+            <p class="subtitle">A tribute to a brotherhood built on trust, loyalty, and countless unforgettable moments.</p>
+            <div class="hero-btns">
+                <a href="#featured" class="btn btn-primary"><i class="fa-solid fa-image"></i> View Photo</a>
+                <a href="#message" class="btn btn-secondary"><i class="fa-solid fa-envelope"></i> Read Letter</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll Down</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ================= PART 3: FRIENDSHIP STATS ================= -->
+    <section id="stats" class="section container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <i class="fa-solid fa-infinity"></i>
+                <h3>100%</h3>
+                <p>Loyalty & Trust</p>
+            </div>
+            <div class="stat-card">
+                <i class="fa-solid fa-comments"></i>
+                <h3>1000+</h3>
+                <p>Shared Moments</p>
+            </div>
+            <div class="stat-card">
+                <i class="fa-solid fa-laugh-beam"></i>
+                <h3>Infinite</h3>
+                <p>Shared Laughs</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PART 4: FEATURED SPOTLIGHT (photo1.jpg) ================= -->
+    <section id="featured" class="section container">
+        <h2 class="section-title">The Spotlight Moment</h2>
+        <p class="section-subtitle">A special photo representing our friendship</p>
+
+        <div class="single-photo-wrapper">
+            <div class="featured-card" onclick="openLightbox('photo1.jpg')">
+                <img src="photo1.jpg" alt="Shaheer and Hassan">
+                <div class="gallery-overlay">
+                    <i class="fa-solid fa-expand"></i>
+                    <span>Click for Full Size</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PART 5: LIGHTBOX MODAL ================= -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close-btn">&times;</span>
+        <img id="lightbox-img" src="" alt="Full View">
+    </div>
+
+    <!-- ================= PART 6: TIMELINE / JOURNEY ================= -->
+    <section id="timeline" class="section container">
+        <h2 class="section-title">Our Journey</h2>
+        <p class="section-subtitle">How our brotherhood evolved over time</p>
+        
+        <div class="timeline-wrapper">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">Chapter 01</span>
+                    <h3>The First Encounter</h3>
+                    <p>Where it all started. A simple greeting that laid the foundation for a lifelong connection.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">Chapter 02</span>
+                    <h3>The Unbreakable Click</h3>
+                    <p>Realizing we share the same mindset, humor, and values. From friends to true brothers.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">Chapter 03</span>
+                    <h3>Through Highs & Lows</h3>
+                    <p>Standing side-by-side during tough times, supporting each other unconditionally.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">Chapter 04</span>
+                    <h3>Future Horizons</h3>
+                    <p>Looking forward to a future filled with achievements, success, and continuous laughter.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PART 7: PILLARS OF BOND ================= -->
+    <section id="bond" class="section container">
+        <h2 class="section-title">Pillars of Our Bond</h2>
+        <p class="section-subtitle">The qualities that keep us strong</p>
+        <div class="cards-grid">
+            <div class="glass-card">
+                <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>Unconditional Support</h3>
+                <p>Always having each other's back, no matter what situation arises.</p>
+            </div>
+            <div class="glass-card">
+                <div class="card-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                <h3>Real Loyalty</h3>
+                <p>Genuine respect and true honesty in every single interaction.</p>
+            </div>
+            <div class="glass-card">
+                <div class="card-icon"><i class="fa-solid fa-face-smile-beam"></i></div>
+                <h3>Endless Humor</h3>
+                <p>Turning even the most stressful moments into memorable laughs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PART 8: TRAITS SECTION ================= -->
+    <section id="reasons" class="section container">
+        <h2 class="section-title">Why Shaheer is a Great Friend</h2>
+        <p class="section-subtitle">Traits that make him one of a kind</p>
+        <div class="traits-container">
+            <div class="trait-pill"><i class="fa-solid fa-check-circle"></i> Always Mindful & Respectful</div>
+            <div class="trait-pill"><i class="fa-solid fa-check-circle"></i> Great Listener & Advisor</div>
+            <div class="trait-pill"><i class="fa-solid fa-check-circle"></i> Pure Hearted & Honest</div>
+            <div class="trait-pill"><i class="fa-solid fa-check-circle"></i> Always Ready for Fun</div>
+        </div>
+    </section>
+
+    <!-- ================= PART 9: LETTER FOR SHAHEER ================= -->
+    <section id="message" class="section container">
+        <div class="message-box">
+            <i class="fa-solid fa-quote-left quote-icon"></i>
+            <h2>A Letter to Shaheer</h2>
+            <p class="quote-text">
+                "True friends are like stars in the night sky. You don't always see them, but you know they are always there illuminating your path."
+            </p>
+            <p class="message-body">
+                Shaheer, thank you for being an amazing brother and a constant support. Here's to many more years of great achievements, adventures, and lifelong friendship!
+            </p>
+            <p class="author">— Written with respect by Hassan</p>
+        </div>
+    </section>
+
+    <!-- ================= PART 10: FOOTER & SCRIPTS ================= -->
+    <footer>
+        <p>Crafted with <i class="fa-solid fa-heart accent"></i> by Hassan for Shaheer</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
+
     
